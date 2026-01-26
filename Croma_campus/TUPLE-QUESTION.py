@@ -65,6 +65,64 @@ t1 += t2
 print(t1)
 
 
+# 10. Write a program to unpack elements of a tuple into variables.
+
+
+
+
+# 11. Write a Python program to sort a tuple.
+t = (7,8,9,45,23,67,49,12)
+sort_t = tuple(sorted(t))
+print("original tuole =",t)
+print("sorted tuple =",sort_t)
+
+
+# 12. Write a program to convert a list of tuples into a dictionary. 
+list = [(1,'a'),(2,'b'),(3,'c')]
+dictionary = dict(list)
+print(dictionary)
+
+#____________________________________________________________________________________
+
+# Advanced Level 
+
+# 13. Write a program to find the index of an element in a tuple. 
+tuple = (65,78,98,45,23,49,13,18,48)
+print(tuple.index(18))
+
+
+# 14. Write a program to remove an element from a tuple (without directly modifying it). 
+
+
+ 
+ 
+# 15. Write a program to find common elements between two tuples. 
+t1 = (1,2,4,6,7,8,9)
+t2 = (2,3,9,6,4,78,34)
+common = set(t1) & set(t2)
+print("common elements",tuple(common))
+
+
+# 16. Write a Python program to check if a tuple is a palindrome. 
+tuple = (6,7,8,7,6)
+if tuple == tuple[::-1]:
+    print("tuple is palindrome")
+else:
+    print("tuple is not palindome")
+
+
+# 17. Write a program to find the element with maximum frequency in a tuple.
+tuple = (3,3,3,4,7,8,9,3,2,4,3)
+element = []
+for i in tuple:
+    element += 1
+    print(element) 
+
+
+# 18. Write a program to create a nested tuple and access its elements. 
+
+
+
     
         
 
